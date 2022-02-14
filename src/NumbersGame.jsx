@@ -124,7 +124,7 @@ const NumbersGame = () => {
         {error === "" && (
             <div className="gameContainer">
                 <div className="nes-container with-title">
-                            <span class="title nes-text is-primary">Numbers Game</span>
+                            <span class="title nes-text is-primary">Knock Knock!</span>
                             <div className="container">
                                 <div className="span">Try and wake charmander up!!</div>
                                 <button className="nes-btn" onClick = {connectWallet}>{connectionText}</button>
